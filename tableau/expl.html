@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: arial,sans-serif;
+}
+td,th{
+    border-top: 1px solid #dee2e6;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Ligne impair*/
+tbody tr:nth-child(odd){
+    background-color: gray;
+    color: white;
+}
+/* Ligne pair*/
+tbody tr:nth-child(even){
+    background-color: red;
+    color: white;
+}
+    </style>
+
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Prenom</th>
+                <th>Nom</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Clark</td>
+                <td>Kent</td>
+                <td>Clarkkent@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>John</td>
+                <td>Carter</td>
+                <td>JohnCarter@gmail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Peter</td>
+                <td>Parker</td>
+                <td>PeterParker@gmail.com</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Doe</td>
+                <td>John</td>
+                <td>Doejohn@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
