@@ -1,0 +1,57 @@
+.container{
+    border: 1px solid #00000067;
+    padding: 20px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+}
+#btn-t{
+    background-color: rgb(41, 41, 206);
+    color: white;
+}
+.btn{
+    padding: 12px;
+    border-radius: 2%;
+    margin-right: 20px;
+}
+.st-btn{
+    background-color: green;
+    color: white;
+}
+header{
+   background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+ body{
+     margin-left: 30px;
+}
+   table {
+   border-collapse: collapse;
+  margin-left: 20px;
+        text-align: center;
+        width:70%;
+            }
+            table,th,
+            td
+             {
+                border: 2px solid black;
+                text-align: left;
+            }
+            th,
+            td {
+                padding: 10px;
+            }
+            th {
+                background-color: aquamarine;
+            }
+                body {
+   font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      }
+      .st-btn-double{
+        color: white;
+      }
